@@ -13,7 +13,7 @@
 namespace App\Plugins\Payment\MomoBasic\Controllers;
 
 use App\Plugins\Payment\MomoBasic\AppConfig;
-use App\Http\Controllers\RootFrontController;
+use SCart\Core\Front\Controllers\RootFrontController;
 use SCart\Core\Front\Models\ShopOrder;
 use SCart\Core\Front\Controllers\ShopCartController;
 class FrontController extends RootFrontController
